@@ -6,9 +6,9 @@ pipeline{
 
             agent any
 
-            // options{
-            //     skipDefaultCheckout()
-            // }
+            options{
+                skipDefaultCheckout()
+            }
 
             steps{
                 echo "skipDefaultCheckout success"
